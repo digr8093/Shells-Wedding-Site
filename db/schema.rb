@@ -11,12 +11,40 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150915001558) do
+ActiveRecord::Schema.define(version: 20151007020741) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "attendees", force: :cascade do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "email"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "girls_parties", force: :cascade do |t|
+    t.boolean  "rsvp"
+    t.string   "venue"
+    t.datetime "date"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.string   "comment"
+    t.integer  "attendee_id"
+  end
+
+  add_index "girls_parties", ["attendee_id"], name: "index_girls_parties_on_attendee_id", using: :btree
+
   create_table "people", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "login"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

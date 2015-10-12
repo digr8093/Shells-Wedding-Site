@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rsvp: false
+  venue: MyString
+  date: 2015-10-05 19:22:44
+
+two:
+  rsvp: false
+  venue: MyString
+  date: 2015-10-05 19:22:44

@@ -12,5 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.scrollex.min
+//= require jquery.scrolly.min
 //= require turbolinks
 //= require_tree .

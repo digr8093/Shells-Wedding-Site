@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Rsvp:</strong>
+  <%= @girls_party.rsvp %>
+</p>
+
+<p>
+  <strong>Venue:</strong>
+  <%= @girls_party.venue %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @girls_party.date %>
+</p>
+
+<%= link_to 'Edit', edit_girls_party_path(@girls_party) %> |
+<%= link_to 'Back', girls_parties_path %>

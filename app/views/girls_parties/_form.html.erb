@@ -1,0 +1,29 @@
+<%= form_for(@girls_party) do |f| %>
+  <% if @girls_party.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@girls_party.errors.count, "error") %> prohibited this girls_party from being saved:</h2>
+
+      <ul>
+      <% @girls_party.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :rsvp %><br>
+    <%= f.check_box :rsvp %>
+  </div>
+  <div class="field">
+    <%= f.label :venue %><br>
+    <%= f.text_field :venue %>
+  </div>
+  <div class="field">
+    <%= f.label :date %><br>
+    <%= f.datetime_select :date %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

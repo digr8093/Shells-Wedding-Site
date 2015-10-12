@@ -724,7 +724,7 @@
 			padding: 0.75em 0 0 0.75em;
 		}
 
-		.row.uniform.\35 0\25 {
+		.row.uniform.\350\25 {
 			margin: -0.75em 0 -1px -0.75em;
 		}
 
@@ -1186,7 +1186,7 @@
 			margin-left: 0;
 		}
 
-		.\31 0u\28xsmall\29, .\31 0u\24\28xsmall\29 {
+		.\310u\28xsmall\29, .\310u\24\28xsmall\29 {
 			width: 83.3333333333%;
 			clear: none;
 			margin-left: 0;
@@ -2170,7 +2170,7 @@
 	}
 
 		.image:before {
-			background: url("../css/images/overlay.png");
+			background: url("../images/overlay.png");
 			content: '';
 			display: block;
 			height: 100%;

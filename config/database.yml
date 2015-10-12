@@ -14,10 +14,13 @@
 # Configure Using Gemfile
 # gem 'pg'
 
+
+
 default: &default
   adapter: postgresql
   pool: 5
   timeout: 5000
+  host: localhost
 
 development:
   <<: *default
