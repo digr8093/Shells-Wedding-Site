@@ -1,6 +1,6 @@
 class UserMailer < ApplicationMailer
 
-  default from: "test@test.com"
+  default from: "lauren@lauren.mn"
 
 
   def contactus
@@ -22,5 +22,12 @@ class UserMailer < ApplicationMailer
     mail(:to => user.email, :subject => "Welcome to My Awesome Site")
   end
 
+  def test_email
+   # subject "twerk"
+   # recipients "laurendigregorio34@gmail.com"
+   # from "lauren@lauren.mn"
+   # sent_on Time.now
+    mail(:to => "laurendigregorio34@gmail.com", :subject => "Welcome to My Awesome Site", :sent_on => Time.now)
+  end
 
 end
