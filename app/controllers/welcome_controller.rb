@@ -1,5 +1,6 @@
 class WelcomeController < ApplicationController
   def index
+
   end
 
   def send_welcome
@@ -7,4 +8,11 @@ class WelcomeController < ApplicationController
     flash[:notice]="this bia has been sent homie"
     redirect_to home_path
   end
+
+  def rsvp
+    @name = params['name']
+    @email =param['email']
+    @message = params['message']
+  end
+
 end
