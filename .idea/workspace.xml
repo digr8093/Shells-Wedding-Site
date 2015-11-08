@@ -18,7 +18,7 @@
     <SUITE FILE_PATH="coverage/Shells@Development__Shells.coverage" NAME="Development: Shells Coverage Results" MODIFIED="1447010707600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Shells" />
     <SUITE FILE_PATH="coverage/Shells@db_setup__Shells.coverage" NAME="db:setup: Shells Coverage Results" MODIFIED="1447013270335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Shells" />
     <SUITE FILE_PATH="coverage/Shells@IRB_console__Shells.coverage" NAME="IRB console: Shells Coverage Results" MODIFIED="1444092306359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Shells" />
-    <SUITE FILE_PATH="coverage/Shells@db_migrate__Shells.coverage" NAME="db:migrate: Shells Coverage Results" MODIFIED="1447013290751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Shells" />
+    <SUITE FILE_PATH="coverage/Shells@db_migrate__Shells.coverage" NAME="db:migrate: Shells Coverage Results" MODIFIED="1447015755921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Shells" />
     <SUITE FILE_PATH="coverage/Shells@Production__Shells.coverage" NAME="Production: Shells Coverage Results" MODIFIED="1447013814578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Shells" />
     <SUITE FILE_PATH="coverage/Shells@Rails_console__Shells.coverage" NAME="Rails console: Shells Coverage Results" MODIFIED="1446429874017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="Shells" />
   </component>
@@ -114,8 +114,8 @@
       <file leaf-file-name="secrets.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/secrets.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65088755">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="146" />
+            <state vertical-scroll-proportion="0.71005917">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -195,8 +195,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-230" />
-    <option name="y" value="54" />
+    <option name="x" value="-1749" />
+    <option name="y" value="-97" />
     <option name="width" value="1646" />
     <option name="height" value="845" />
   </component>
@@ -570,7 +570,7 @@
       <recent name="$PROJECT_DIR$/app/assets/javascripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Production: Shells">
+  <component name="RunManager" selected="Rake.db:migrate: Shells">
     <configuration default="false" name="routes: Shells" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="Shells" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -925,7 +925,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-230" y="54" width="1646" height="845" extended-state="0" />
+    <frame x="-1749" y="-97" width="1646" height="845" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39836448" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1336,8 +1336,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/secrets.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65088755">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="146" />
+        <state vertical-scroll-proportion="0.71005917">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
