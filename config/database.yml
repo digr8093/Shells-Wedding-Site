@@ -35,5 +35,5 @@ test:
 
 production:
   <<: *default
-  #database: Shells-Wedding-Site_production
- database: Shells-Wedding-Site_development
+  database: Shells-Wedding-Site_production
+ #database: Shells-Wedding-Site_development
