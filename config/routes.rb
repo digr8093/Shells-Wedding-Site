@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :web_users
+  devise_for :users
   resources :users
   resources :girls_parties
 

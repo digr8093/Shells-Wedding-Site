@@ -19,7 +19,11 @@ class UserMailer < ApplicationMailer
   def welcome_email(user)
     @user = user
     @url  = "http://example.com/login"
-    mail(:to => user.email, :subject => "Welcome to My Awesome Site")
+#,
+    emails= [user.email, "lauren@lauren.mn", "michelle.digregorio23@gmail.com"]
+
+   # mail(:to => user.email, :subject => "You RSVP-ed!") ,
+    mail(:to => emails, :subject => "You RSVP-ed!")
   end
 
   def test_email

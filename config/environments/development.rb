@@ -42,6 +42,8 @@ Rails.application.configure do
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings ={
+    #  :user_name => ENV['GMAIL'],
+    #  :password => ENV['GMAIL_PSSWD'],
       :user_name => "lauren@lauren.mn",
       :password => "X0fT&uUy",
       :enable_starttls_auto => true,

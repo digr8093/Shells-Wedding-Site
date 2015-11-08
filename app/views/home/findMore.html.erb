@@ -23,13 +23,13 @@
 
     <div class="content">
       <header class="major">
-        <h2>ITS WEDDING TIME</h2>
+        <h2>Celebrate with Us!</h2>
 
 
       </header>
-      <img src="https://shell-wedding.s3.amazonaws.com/purposal .jpg" width="300" height="230"/>
+      <img src="https://shell-wedding.s3.amazonaws.com/purposal .jpg" width="300" height="214"/>
       <img src="https://shell-wedding.s3.amazonaws.com/purposalKissing.jpg" width="300" height="214"/>
-      <img src="https://shell-wedding.s3.amazonaws.com/hugging.jpg" width="300" height="230"/>
+
       <img src="https://shell-wedding.s3.amazonaws.com/downtown.png" width="300" height="214"/>
       </br><br><br>
 
@@ -46,16 +46,18 @@
 <!-- Two -->
 <section id="two" class="main special">
   <div class="container">
-    <span class="image fit primary"><img src="<%= image_tag "pic02.jpg" %>" alt="" /></span>
+
     <div class="content">
       <header class="major">
         <h2>Details</h2>
       </header>
 
-
+<br> <br>
       <h3>When</h3>
-      <p>Ceremony date: Saturday, 11 June 2016</p>
-      <p>We will be there from June 8 to June 14</p>
+      <p>Ceremony date: Saturday, 11 June 2016 12:00-1:00 pm </p>
+
+      <br>
+
       <h3>Where</h3>
       <p>
         <a href="http://www.riu.com/en/Paises/mexico/los-cabos/hotel-riu-palace-cabo-san-lucas/mapa.jsp">Hotel RIU Palace</a>
@@ -66,6 +68,8 @@
 
         <a href="http://www.riu.com/en/Paises/mexico/los-cabos/hotel-riu-santa-fe/">Santa Fe</a>
         <br>
+
+      <br>
       <h3>IMPORTANT!</h3>
       <p> You are welcome to book your hotel at other locations, however, to participate in the wedding festivities, you will be required to purchase a daily pass per guest.</p>
 
@@ -80,14 +84,43 @@
 <!-- Three -->
 <section id="three" class="main special">
   <div class="container">
-    <span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span>
+
     <div class="content">
       <header class="major">
         <h2>Trip Agenda</h2>
       </header>
-      <p>Ceremony date: Saturday, 11 June 2016, 12:00 pm - 1:00 pm</p>
-      <p>The wedding will be at the RIU hotel on the beach with a dinner at 7 pm that evening at the Resort.</p>
+
+      We first would like to stress that we understand partaking in this celebration is a big investment and that it is completely understandable if you
+      would like show your support in other ways--attend the reception, give us a call, send a letter, whatever is most comfortable! If you would like
+      to still stay involved via social media, we will be updating an <%=link_to("Instgram", "https://instagram.com/michellejohnswedding/")%> and <%= link_to("Facebook", "https://www.facebook.com/groups/452938444894094/") %> account with pictures.
+      <br><br>
+      Also, for any changes regarding the itinerary, please check the facebook page for last minute updates or changes.
+<br><br>
+    <li><%= link_to("Facebook", "https://www.facebook.com/groups/452938444894094/") %></li>
+    <li><%= link_to("Instgram", "https://instagram.com/michellejohnswedding/") %></li>
+<br><br>
+
+
+      <h2>Itinerary</h2>
+<p align="left">
+
+
+    <b>June 8th</b> Mr. Samson and Ms DiGregorio fly into Mexico.<br><br>
+    <b>June 11th</b> The wedding ceremony starts at 12 and will finish at 1:00. The wedding will be at the RIU hotel on the beach.<br><br>
+    <b>June 11th</b> Dinner with the newly weds.<br><br>
+    <b>June 14th</b> Mr. and Mrs. Samson fly home.<br><br>
+      </p>
+
+
+
+      <br><br>
+
+
+
+
     </div>
+
+
     <a href="#footer" class="goto-next scrolly">Next</a>
   </div>
 </section>
@@ -100,23 +133,26 @@
   <header class="major">
     <h2>Get in touch</h2>
   </header>
-  <p>RSVP by January 31 at:
-    <br>
-    Phone/Text:<br>
+  <p>RSVP by January 31 via <br> <br>
+
+    <b>Online - Prefered</b><br>
+    <%= link_to 'Click here', new_user_path %>
+
+    <br><br>
+    <b>Phone/Text</b><br>
     Michelle (612) 239-0142<br>
     John (701) 936-5778
     <br><br>
-    Email: <br>
+
+    <b>Email</b><br>
     michelle.digregorio23@gmail.com<br>
     jdsamson11@gmail.com</p>
 
 
-  Post pictures and tag it with
-  <h1>#EatDrinkBeSamson</h1>
+  <b>Post pictures and tag it with</b><br>
+  #EatDrinkBeSamson
   <br><br>
-  Or RSVP
 
-  <%= link_to 'Online', new_user_path %>
 
 
 

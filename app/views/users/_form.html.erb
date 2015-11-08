@@ -7,7 +7,7 @@
 <!-- Three -->
 <section id="three" class="main special">
   <div class="container">
-    <span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span>
+
     <div class="content">
       <header class="major">
         <h1>RSVP Below</h1>
@@ -16,7 +16,7 @@
 
 
 
-
+<br><br>
 <%= form_for(@user) do |f| %>
   <% if @user.errors.any? %>
     <div id="error_explanation">
@@ -31,31 +31,31 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br>
+    <%= f.label :name, :align=>"left" %>
     <%= f.text_field :name, :placeholder=>"Your Name"  %>
-  </div>
+  </div><br>
   <div class="field">
-    <%= f.label :email %><br>
+    <%= f.label :email, :align=>"left" %>
     <%= f.text_field :email, :placeholder=>"Your Email" %>
-  </div>
-  <div class="field">
-    <%= f.label :login %><br>
-    <%= f.text_field :login %>
-  </div>
+  </div><br>
+
 
    <div class="field">
-     <%= f.label :Message %><br>
+     <%= f.label :Message, :align=>"left" %>
      <%= f.text_area :Message, cols:"20", rows:"10", :placeholder=>"Please list is the event and the names of the expected guests" %>
-  </div>
+  </div><br>
 
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit :value=>"RSVP Now" %>
   </div>
+
 <% end %>
 
-      <%= link_to 'Back', users_path %>
+
+      <br>
+    <b>Go</b> <%= link_to 'Home', home_path %>
 
     </div>
-    <a href="#footer" class="goto-next scrolly">Next</a>
+
   </div>
 </section>
