@@ -32,7 +32,7 @@ class UsersController < ApplicationController
       if @user.save
 
         UserMailer.welcome_email(@user).deliver
-         format.html { redirect_to @user, notice: 'User was successfully created.' }
+         format.html { redirect_to @user, notice: 'You successfullu RSVPed.' }
          format.json { render :show, status: :created, location: @user }
 
       #  format.json { render :show, status: :created, location: @user }
