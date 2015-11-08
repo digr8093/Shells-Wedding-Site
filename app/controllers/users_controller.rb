@@ -11,6 +11,7 @@ class UsersController < ApplicationController
   # GET /users/1
   # GET /users/1.json
   def show
+    #redirect_to home_path
   end
 
   # GET /users/new
@@ -31,8 +32,11 @@ class UsersController < ApplicationController
       if @user.save
 
         UserMailer.welcome_email(@user).deliver
-        format.html { redirect_to @user, notice: 'User was successfully created.' }
-        format.json { render :show, status: :created, location: @user }
+         format.html { redirect_to @user, notice: 'User was successfully created.' }
+         format.json { render :show, status: :created, location: @user }
+
+      #  format.json { render :show, status: :created, location: @user }
+      #   redirect_to home_url
       else
         format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
